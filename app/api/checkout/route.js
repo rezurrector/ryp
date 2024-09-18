@@ -21,8 +21,8 @@ export async function POST(request) {
       // success_url: "http://localhost:3000/success",
       // cancel_url: "http://localhost:3000/cancel",
       //use for hosted
-      success_url: `${request.headers.origin}/success`,
-      cancel_url: `${request.headers.origin}/cancel`,
+      success_url: `https://www.rockyoupierecords.com/success`,
+      cancel_url: `https://www.rockyoupierecords.com/cancel`,
       line_items: body.lineItems,
       mode: "payment",
       shipping_address_collection: {
