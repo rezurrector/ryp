@@ -76,7 +76,7 @@ export default function Home() {
               Melissa and guitarist all around musician/ main songwriter/
               producer Angel. We write original songs and play some beloved
               covers as well. We would love to play for you live. Give us a call
-              to book your next event for live Entertainment. Sometimes gurst
+              to book your next event for live Entertainment. Sometimes guest
               violinist Alex. You can listen & watch more of our content on
               <Link
                 target="_blank"
