@@ -5,6 +5,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam"
 import Divider from "@/components/Divider"
 import Social from "@/components/Social"
 import { RxOpenInNewWindow } from "react-icons/rx"
+import { SiMusicbrainz } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -42,7 +43,6 @@ export default function Home() {
             <p className="md:text-2xl text-1xl lg:text-9l font-bold text-center relative z-20 pb-10">
               Outlaw Western Rock from Albuquerque New Mexico
             </p>
-            <p className="mb-5">Check out our new release L8LY!</p>
             <Social />
           </div>
 
@@ -76,23 +76,22 @@ export default function Home() {
               Melissa and guitarist all around musician/ main songwriter/
               producer Angel. We write original songs and play some beloved
               covers as well. We would love to play for you live. Give us a call
-              to book your next event for live Entertainment. Sometimes guest
-              violinist Alex. You can listen & watch more of our content on
+              to book your next event for live Entertainment. You can listen & watch more of our content on
               <Link
                 target="_blank"
-                href="https://open.spotify.com/artist/0tyELY8D780ONt29dfsU3l"
+                href="https://ai.rockyoupierecords.com/"
                 className="mx-1 underline"
               >
-                Spotify
+                ai.rockyoupie.com
                 <RxOpenInNewWindow className="inline mx-1" />
               </Link>
               or{" "}
               <Link
                 target="_blank"
-                href="https://www.youtube.com/channel/UC8dGnZTuJEBAM-Bfsa8XVug"
+                href="https://soundcloud.com/user6958136"
                 className="mx-1 underline"
               >
-                Youtube
+                Soundcloud
                 <RxOpenInNewWindow className="inline mx-1" />
               </Link>
               . Don’t forget to give us a like, love those good comments. It’s

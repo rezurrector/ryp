@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaSpotify, FaYoutube, FaSoundcloud } from "react-icons/fa";
-import { SiApplemusic } from "react-icons/si";
+import { SiApplemusic, SiMusicbrainz } from "react-icons/si";
 
 export default function Social() {
   return (
@@ -10,23 +10,18 @@ export default function Social() {
       <div className="flex space-x-8 z-[2]">
         <Link
           target="_blank"
-          href="https://open.spotify.com/artist/0tyELY8D780ONt29dfsU3l"
+          href="https://ai.rockyoupierecords.com/"
         >
-          <FaSpotify size={40} />
+          <SiMusicbrainz size={40}/>
         </Link>
+
         <Link
           target="_blank"
-          href="https://www.youtube.com/channel/UC8dGnZTuJEBAM-Bfsa8XVug"
+          href="https://www.youtube.com/watch?v=0X58wf0SjmA"
         >
           <FaYoutube size={40} />
         </Link>
-        <Link
-          target="_blank"
-          href="https://music.apple.com/us/artist/miranda/1716473693"
-        >
-          <SiApplemusic size={40} />
-        </Link>
-        <Link target="_blank" href="https://soundcloud.com/mirandarockyoupie">
+        <Link target="_blank" href="https://soundcloud.com/user6958136">
           <FaSoundcloud size={40} />
         </Link>
       </div>
