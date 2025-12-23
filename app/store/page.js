@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import Stripe from "stripe";
 import ProductCard from "./ProductCard";
 
@@ -14,7 +16,6 @@ async function getStripeProducts() {
   // Exclude products marked as premium via metadata
   const filteredPrices = res.data.filter((price) => {
     const product = price.product;
-
     return product?.metadata?.tier !== "premium";
   });
 
