@@ -13,9 +13,9 @@ async function getStripeProducts() {
 
   // Exclude products marked as premium via metadata
   const filteredPrices = res.data.filter((price) => {
-    const product = price.product as Stripe.Product;
+    const product = price.product;
 
-    return product.metadata?.tier !== "premium";
+    return product?.metadata?.tier !== "premium";
   });
 
   return filteredPrices;
